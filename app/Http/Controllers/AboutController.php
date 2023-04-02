@@ -21,4 +21,8 @@ class AboutController extends Controller
     public function ServicePage() {
         return view('homepage.service');
     }
+
+    public function AppointmentPage() {
+        return view('homepage.appointment');
+    }
 }

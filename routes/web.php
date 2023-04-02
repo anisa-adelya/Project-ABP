@@ -32,3 +32,5 @@ Route::get('/Contact', [AboutController::class, 'ContactPage'])->name('contact')
 
 Route::get('/Service', [AboutController::class, 'ServicePage'])->name('service');
 
+Route::get('/Appointment', [AboutController::class, 'AppointmentPage'])->name('appointment');
+
