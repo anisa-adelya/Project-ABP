@@ -10,19 +10,15 @@ class AboutController extends Controller
         return view('homepage.index');
     }
 
-    public function AboutPage() {
-        return view('homepage.about');
-    }
-
     public function ContactPage() {
         return view('homepage.contact');
     }
 
-    public function ServicePage() {
-        return view('homepage.service');
-    }
-
     public function AppointmentPage() {
         return view('homepage.appointment');
+    }
+
+    public function RegistrasiPage() {
+        return view('homepage.registrasi');
     }
 }

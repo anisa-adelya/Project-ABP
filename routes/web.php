@@ -30,7 +30,7 @@ Route::get('/About', [AboutController::class, 'AboutPage'])->name('about');
 
 Route::get('/Contact', [AboutController::class, 'ContactPage'])->name('contact');
 
-Route::get('/Service', [AboutController::class, 'ServicePage'])->name('service');
+Route::get('/Registrasi', [AboutController::class, 'RegistrasiPage'])->name('regist');
 
 Route::get('/Appointment', [AboutController::class, 'AppointmentPage'])->name('appointment');
 

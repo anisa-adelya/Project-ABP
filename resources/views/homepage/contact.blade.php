@@ -83,6 +83,7 @@
             <div class="navbar-nav ms-auto py-0">
                 <a href="/Home" class="nav-item nav-link active">Home</a>
                 <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a>
+                <a href="{{ route('regist') }}" class="nav-item nav-link">Registrasi</a>
             </div>
             <a href="{{ route('appointment') }}" class="btn btn-primary py-2 px-4 ms-3">Appointment</a>
         </div>

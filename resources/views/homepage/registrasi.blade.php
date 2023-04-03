@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>HealthU Website</title>
+    <title>HealthU App</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -58,10 +58,10 @@
             <div class="col-md-6 text-center text-lg-end">
                 <div class="position-relative d-inline-flex align-items-center bg-primary text-white top-shape px-5">
                     <div class="me-3 pe-3 border-end py-2">
-                        <p class="m-0"><i class="fa fa-envelope-open me-2"></i>cs@telkomedika.co.id</p>
+                        <p class="m-0"><i class="fa fa-envelope-open me-2"></i>info@example.com</p>
                     </div>
                     <div class="py-2">
-                        <p class="m-0"><i class="fa fa-phone-alt me-2"></i>1500115</p>
+                        <p class="m-0"><i class="fa fa-phone-alt me-2"></i>+012 345 6789</p>
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@
     <!-- Topbar End -->
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
+       <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
         <a href="/Home" class="navbar-brand p-0">
             <h1 class="m-0 text-primary">HealthU</h1>
         </a>
@@ -88,6 +88,19 @@
     </nav>
     <!-- Navbar End -->
 
+    <!-- Hero Start -->
+    <div class="container-fluid bg-primary py-5 hero-header mb-5">
+        <div class="row py-3">
+            <div class="col-12 text-center">
+                <h1 class="display-3 text-white animated zoomIn">Sign Up</h1>
+                <a href="" class="h4 text-white">Home</a>
+                <i class="far fa-circle text-white px-2"></i>
+                <a href="" class="h4 text-white">Sign Up</a>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
     <!-- Appointment Start -->
     <div class="container-fluid bg-primary bg-appointment mb-5 wow fadeInUp" data-wow-delay="0.1s" style="margin-top: 90px;">
         <div class="container">
@@ -99,59 +112,43 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="appointment-form h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn" data-wow-delay="0.6s">
-                        <h1 class="text-white mb-4">registrasi</h1>
+                        <h1 class="text-white mb-4">Sign Up</h1>
                         <form>
                             <div class="row g-3">
-                                <div class="col-12 col-sm-6">
-                                    <select class="form-select bg-light border-0" style="height: 55px;">
-                                        <option selected>Select A Service</option>
-                                        <option value="1">Service 1</option>
-                                        <option value="2">Service 2</option>
-                                        <option value="3">Service 3</option>
-                                    </select>
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <select class="form-select bg-light border-0" style="height: 55px;">
-                                        <option selected>Select Doctor</option>
-                                        <option value="1">Doctor 1</option>
-                                        <option value="2">Doctor 2</option>
-                                        <option value="3">Doctor 3</option>
-                                    </select>
-                                </div>
                                 <div class="col-12 col-sm-6">
                                     <input type="text" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;">
+                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <div class="date" id="date1" data-target-input="nearest">
-                                        <input type="text"
-                                            class="form-control bg-light border-0 datetimepicker-input"
-                                            placeholder="Appointment Date" data-target="#date1" data-toggle="datetimepicker" style="height: 55px;">
-                                    </div>
+                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Username" style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <div class="time" id="time1" data-target-input="nearest">
-                                        <input type="text"
-                                            class="form-control bg-light border-0 datetimepicker-input"
-                                            placeholder="Appointment Time" data-target="#time1" data-toggle="datetimepicker" style="height: 55px;">
-                                    </div>
+                                    <input type="email" class="form-control bg-light border-0" placeholder="Password" style="height: 55px;">
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-dark w-100 py-3" type="submit">Make Appointment</button>
+                                    <button class="btn btn-dark w-100 py-3" type="submit">Sign Up</button>
                                 </div>
                             </div>
                         </form>
+                        <div class="container signin" style="color: white;">
+                            <br>
+                            <p>Already have an account? <a href="#" style="color: white;">Sign In</a>.</p>
+                        </div>
+
                     </div>
+
                 </div>
             </div>
         </div>
+  </div>
+
     </div>
     <!-- Appointment End -->    
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light py-5 wow fadeInUp" data-wow-delay="0.3s" style="margin-top: -75px;">
+        <div class="container-fluid bg-dark text-light py-5 wow fadeInUp" data-wow-delay="0.3s" style="margin-top: -75px;">
             <div class="row g-5 pt-4">
                 <div class="col-lg-8 col-md-7">
                     <h3 class="text-white mb-4">Telkomedika Telkom University</h3>
@@ -163,7 +160,6 @@
         </div>
     </div>
     <!-- Footer End -->
-
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
