@@ -94,12 +94,13 @@
             <div class="row gx-5">
                 <div class="col-lg-6 py-5">
                     <div class="py-5">
-                        <h1 class="display-5 text-white mb-4">Sebelum anda membuat appointment silahkan untuk registrasi terlebi</h1>
+                        <h1 class="display-5 text-white mb-4">Let's Make an Appointment With The Doctor</h1>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="appointment-form h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn" data-wow-delay="0.6s">
-                        <h1 class="text-white mb-4">registrasi</h1>
+                        <h1 class="text-white mb-4">Appoinment Submission</h1>
+                        <br>
                         <form>
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
@@ -139,7 +140,8 @@
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-dark w-100 py-3" type="submit">Make Appointment</button>
+                                    <br>
+                                    <button class="btn btn-dark w-100 py-3" type="submit">Submit Appointment</button>
                                 </div>
                             </div>
                         </form>

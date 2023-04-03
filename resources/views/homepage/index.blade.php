@@ -192,29 +192,14 @@
                         <h1 class="display-5 mb-0">TelkoMedika Services</h1>
                     </div>
                     <div class="row g-5">
-                        <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.6s">
-                            <div class="rounded-top overflow-hidden">
-                                <img class="img-fluid" src="img/rsz_rawat-inap.png" alt="">
-                            </div>
-                            <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                <h5 class="m-0">Rawat Inap</h5>
-                            </div>
-                        </div>
-                        <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.9s">
-                            <div class="rounded-top overflow-hidden">
-                                <img class="img-fluid" src="img/rsz_pharmacy.png" alt="">
-                            </div>
-                            <div class="position-relative bg-light rounded-bottom text-center p-4">
-                                <h5 class="m-0">Apotek</h5>
-                            </div>
-                        </div>
+                        <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.9s"></div>
                     </div>
                 </div>
             </div>
-            <div class="row g-5 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="col-lg-7">
-                    <div class="row g-5">
-                        <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.3s">
+            <div class="row g-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-8">
+                    <div class="row g-6">
+                        <div class="col-md-6 service-item wow zoomIn" data-wow-delay="0.6s">
                             <div class="rounded-top overflow-hidden">
                                 <img class="img-fluid" src="img/rsz_clinic.png" alt="">
                             </div>
@@ -232,16 +217,22 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5 service-item wow zoomIn" data-wow-delay="0.9s">
-                    <div class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-4">
-                        <h3 class="text-white mb-3">Make Appointment</h3>
-                        <p class="text-white mb-3">We make it easy for you to make an appointment with HealthU</p>
-                    </div>
-                </div>
             </div>
-        </div>
     </div>
     <!-- Service End -->
+
+    <!-- Whitespace -->
+    <div>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+
+    <!-- Whitespace End -->
+
+
+
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light py-5 wow fadeInUp" data-wow-delay="0.3s" style="margin-top: -75px;">
