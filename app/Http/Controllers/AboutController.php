@@ -21,4 +21,10 @@ class AboutController extends Controller
     public function RegistrasiPage() {
         return view('homepage.registrasi');
     }
+
+    public function LoginPage() {
+        return view('homepage.login');
+    }
+
+    
 }

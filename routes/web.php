@@ -34,3 +34,5 @@ Route::get('/Registrasi', [AboutController::class, 'RegistrasiPage'])->name('reg
 
 Route::get('/Appointment', [AboutController::class, 'AppointmentPage'])->name('appointment');
 
+Route::get('/Login', [AboutController::class, 'LoginPage'])->name('login');
+

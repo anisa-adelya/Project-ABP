@@ -81,7 +81,7 @@
             <div class="navbar-nav ms-auto py-0">
                 <a href="/Home" class="nav-item nav-link active">Home</a>
                 <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a>
-                <a href="{{ route('regist') }}" class="nav-item nav-link">Registrasi</a>
+                <a href="{{ route('regist') }}" class="nav-item nav-link">Sign Up</a>
             </div>
             <a href="{{ route('appointment') }}" class="btn btn-primary py-2 px-4 ms-3">Appointment</a>
         </div>
@@ -98,16 +98,20 @@
                 <a href="" class="h4 text-white">Sign Up</a>
             </div>
         </div>
-    </div>
-    <!-- Hero End -->
 
-    <!-- Appointment Start -->
-    <div class="container-fluid bg-primary bg-appointment mb-5 wow fadeInUp" data-wow-delay="0.1s" style="margin-top: 90px;">
+        <!-- White Space -->
+        <div>
+            <br>
+            <br>
+            <br>
+        </div>
+        <!-- White Space End -->
+
         <div class="container">
             <div class="row gx-5">
                 <div class="col-lg-6 py-5">
                     <div class="py-5">
-                        <h1 class="display-5 text-white mb-4">Sebelum anda membuat appointment silahkan untuk registrasi terlebi</h1>
+                        <h1 class="display-5 text-white mb-4">Enter Your Personal Details and Let's Get Connected</h1>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -134,7 +138,7 @@
                         </form>
                         <div class="container signin" style="color: white;">
                             <br>
-                            <p>Already have an account? <a href="#" style="color: white;">Sign In</a>.</p>
+                            <p>Already have an account? <a href="{{ route('login') }}" style="color: #091e3ed9 ;">Sign In</a></p>
                         </div>
 
                     </div>
@@ -142,7 +146,8 @@
                 </div>
             </div>
         </div>
-  </div>
+    </div>
+    <!-- Hero End -->
 
     </div>
     <!-- Appointment End -->    
