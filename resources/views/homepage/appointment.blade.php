@@ -52,7 +52,7 @@
         <div class="row gx-0">
             <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center">
-                    <small class="py-2"><i class="far fa-clock text-primary me-2"></i>Opening Hours: Mon - Tues : 6.00 am - 10.00 pm, Sunday Closed </small>
+                    <small class="py-2"><i class="far fa-clock text-primary me-2"></i>Opening Hours: Monday - Friday : 7.00 am - 7.00 pm, Saturday - Sunday : 8.00 am - 2.00 pm</small>
                 </div>
             </div>
             <div class="col-md-6 text-center text-lg-end">
@@ -61,7 +61,7 @@
                         <p class="m-0"><i class="fa fa-envelope-open me-2"></i>cs@telkomedika.co.id</p>
                     </div>
                     <div class="py-2">
-                        <p class="m-0"><i class="fa fa-phone-alt me-2"></i>1500115</p>
+                        <p class="m-0"><i class="fa fa-phone-alt me-2"></i>022-287310575</p>
                     </div>
                 </div>
             </div>
@@ -89,7 +89,21 @@
     <!-- Navbar End -->
 
     <!-- Appointment Start -->
-    <div class="container-fluid bg-primary bg-appointment mb-5 wow fadeInUp" data-wow-delay="0.1s" style="margin-top: 90px;">
+    <div class="container-fluid bg-primary py-5 hero-header mb-5">
+        <div class="row py-3">
+            <div class="col-12 text-center">
+                <h1 class="display-3 text-white animated zoomIn">Appointment</h1>
+                <a href="" class="h4 text-white">Home</a>
+                <i class="far fa-circle text-white px-2"></i>
+                <a href="" class="h4 text-white">Appointment</a>
+            </div>
+        </div>
+
+        <!-- White Space Start -->
+        <br>
+        <br>
+        <!-- White Space End -->
+
         <div class="container">
             <div class="row gx-5">
                 <div class="col-lg-6 py-5">
@@ -150,7 +164,7 @@
             </div>
         </div>
     </div>
-    <!-- Appointment End -->    
+    <!-- Appointment End --> 
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light py-5 wow fadeInUp" data-wow-delay="0.3s" style="margin-top: -75px;">

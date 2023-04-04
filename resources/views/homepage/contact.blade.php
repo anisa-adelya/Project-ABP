@@ -53,7 +53,7 @@
         <div class="row gx-0">
             <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center">
-                    <small class="py-2"><i class="far fa-clock text-primary me-2"></i>Opening Hours: Mon - Tues : 6.00 am - 10.00 pm, Sunday Closed </small>
+                    <small class="py-2"><i class="far fa-clock text-primary me-2"></i>Opening Hours: Monday - Friday : 7.00 am - 7.00 pm, Saturday - Sunday : 8.00 am - 2.00 pm</small>
                 </div>
             </div>
             <div class="col-md-6 text-center text-lg-end">
@@ -62,7 +62,7 @@
                         <p class="m-0"><i class="fa fa-envelope-open me-2"></i>cs@telkomedika.co.id</p>
                     </div>
                     <div class="py-2">
-                        <p class="m-0"><i class="fa fa-phone-alt me-2"></i>1500115</p>
+                        <p class="m-0"><i class="fa fa-phone-alt me-2"></i>022-287310575</p>
                     </div>
                 </div>
             </div>
@@ -158,6 +158,7 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 wow slideInUp" data-wow-delay="0.3s">
+                    <h2>Please Give Us Feedback</h2>
                     <form>
                         <div class="row g-3">
                             <div class="col-12">
@@ -188,6 +189,13 @@
         </div>
     </div>
     <!-- Contact End -->
+
+
+    <!-- White space -->
+    <br>
+    <br>
+    <br>
+    <!-- White space End -->
 
     <!-- Footer Start -->
         <div class="container-fluid bg-dark text-light py-5 wow fadeInUp" data-wow-delay="0.3s" style="margin-top: -75px;">
