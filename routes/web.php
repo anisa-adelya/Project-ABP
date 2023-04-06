@@ -1,6 +1,7 @@
 <?php
 namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DokterController;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 /*
@@ -17,6 +18,29 @@ use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/Admin', [DokterController::class, 'index'])->name('dokter')->middleware('auth');
+
+Route::get('/TambahDataDokter', [DokterController::class, 'TambahDataDokter'])->name('TambahDataDokter');
+
+Route::post('/InsertDataDokter', [DokterController::class, 'InsertDataDokter'])->name('InsertDataDokter');
+
+Route::get('/TampilkanData/{id}', [DokterController::class, 'TampilkanData'])->name('TampilkanData');
+
+Route::post('/UpdateData/{id}', [DokterController::class, 'UpdateData'])->name('UpdateData');
+
+Route::get('/DeleteData/{id}', [DokterController::class, 'DeleteData'])->name('DeleteData');
+
+Route::get('/LoginAdmin', [LoginController::class, 'LoginAdmin'])->name('LoginAdmin');
+
+Route::get('/RegisterAdmin', [LoginController::class, 'RegisterAdmin'])->name('RegisterAdmin');
+
+Route::post('/SaveRegisterAdmin', [LoginController::class, 'SaveRegisterAdmin'])->name('SaveRegisterAdmin');
+
+Route::post('/LoginProses', [LoginController::class, 'LoginProses'])->name('LoginProses');
+
+Route::get('/LogoutAdmin', [LoginController::class, 'LogoutAdmin'])->name('LogoutAdmin');
 
 Route::get('/Coba', function () {
     return view('dashboard.index');

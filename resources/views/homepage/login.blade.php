@@ -133,6 +133,7 @@
                         <div class="container signin" style="color: white;">
                             <br>
                             <p>Don't have an account? <a href="{{ route('regist') }}" style="color: #091e3ed9 ;">Sign Up</a></p>
+                            <p>Or Sign In as an Admin? <a href="{{ route('LoginAdmin') }}" style="color: #091e3ed9 ;">Sign In Admin</a></p>
                         </div>
                     </div>
 
